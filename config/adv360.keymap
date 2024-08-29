@@ -33,6 +33,115 @@
     macros {
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        LeftArrow {
+            bindings = <&kp LEFT>;
+            key-positions = <35 41>;
+        };
+
+        DownArrow {
+            bindings = <&kp DOWN>;
+            key-positions = <35 42>;
+        };
+
+        RightArrow {
+            bindings = <&kp RIGHT>;
+            key-positions = <43 35>;
+        };
+
+        UpArrow {
+            bindings = <&kp UP_ARROW>;
+            key-positions = <35 23>;
+        };
+
+        Underscore {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <67 32>;
+        };
+
+        Equal {
+            bindings = <&kp KP_EQUAL>;
+            key-positions = <67 31>;
+        };
+
+        Plus {
+            bindings = <&kp PLUS>;
+            key-positions = <67 41>;
+        };
+
+        Minus {
+            bindings = <&kp KP_MINUS>;
+            key-positions = <67 42>;
+        };
+
+        Multiply {
+            bindings = <&kp KP_MULTIPLY>;
+            key-positions = <67 43>;
+        };
+
+        Divide {
+            bindings = <&kp KP_DIVIDE>;
+            key-positions = <67 44>;
+        };
+
+        Pipe {
+            bindings = <&kp PIPE>;
+            key-positions = <67 30>;
+        };
+
+        One {
+            bindings = <&kp NUMBER_1>;
+            key-positions = <66 69 29>;
+        };
+
+        Two {
+            bindings = <&kp NUMBER_2>;
+            key-positions = <66 69 30>;
+        };
+
+        Three {
+            bindings = <&kp NUMBER_3>;
+            key-positions = <66 69 31>;
+        };
+
+        Four {
+            bindings = <&kp NUMBER_4>;
+            key-positions = <66 69 32>;
+        };
+
+        Five {
+            bindings = <&kp NUMBER_5>;
+            key-positions = <66 69 33>;
+        };
+
+        Six {
+            bindings = <&kp NUMBER_6>;
+            key-positions = <40 66 69>;
+        };
+
+        Seven {
+            bindings = <&kp NUMBER_7>;
+            key-positions = <66 69 41>;
+        };
+
+        Eight {
+            bindings = <&kp NUMBER_8>;
+            key-positions = <66 69 42>;
+        };
+
+        Nine {
+            bindings = <&kp NUMBER_9>;
+            key-positions = <66 69 43>;
+        };
+
+        Zero {
+            bindings = <&kp NUMBER_0>;
+            key-positions = <66 69 44>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
