@@ -17,11 +17,11 @@
             bindings = <&kp RET>;
         };
 
-        arrow_operator: Arrow {
+        arrow_operator: arrow_operator {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp MINUS &kp GT>;
-            label = "ARROW";
+            label = "arrow_operator";
         };
 
         #endif
