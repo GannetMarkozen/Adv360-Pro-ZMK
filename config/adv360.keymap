@@ -42,6 +42,21 @@
             key-positions = <32 65>;
         };
 
+        Equals {
+            bindings = <&kpc EQUAL>;
+            key-positions = <31 65>;
+        };
+
+        Pipe {
+            bindings = <&kp PIPE>;
+            key-positions = <30 65>;
+        };
+
+        Divide {
+            bindings = <&kp KP_DIVIDE>;
+            key-positions = <15 65>;
+        };
+
         Plus {
             bindings = <&kp PLUS>;
             key-positions = <65 18>;
@@ -85,21 +100,6 @@
         RBracket {
             bindings = <&kp LS(RIGHT_BRACKET)>;
             key-positions = <24 70>;
-        };
-
-        Equals {
-            bindings = <&kt EQUAL>;
-            key-positions = <65 31>;
-        };
-
-        Pipe {
-            bindings = <&kp PIPE>;
-            key-positions = <65 30>;
-        };
-
-        Divide {
-            bindings = <&kp KP_DIVIDE>;
-            key-positions = <65 15>;
         };
     };
 
