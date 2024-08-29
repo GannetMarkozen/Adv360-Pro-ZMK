@@ -36,59 +36,39 @@
     combos {
         compatible = "zmk,combos";
 
-        LeftArrow {
-            bindings = <&kp LEFT>;
-            key-positions = <35 41>;
-        };
-
-        DownArrow {
-            bindings = <&kp DOWN>;
-            key-positions = <35 42>;
-        };
-
-        RightArrow {
-            bindings = <&kp RIGHT>;
-            key-positions = <43 35>;
-        };
-
-        UpArrow {
-            bindings = <&kp UP_ARROW>;
-            key-positions = <35 23>;
-        };
-
         Underscore {
             bindings = <&kp UNDERSCORE>;
-            key-positions = <67 32>;
+            key-positions = <32 65>;
         };
 
         Equal {
             bindings = <&kp KP_EQUAL>;
-            key-positions = <67 31>;
+            key-positions = <31 65>;
         };
 
         Plus {
             bindings = <&kp PLUS>;
-            key-positions = <67 41>;
+            key-positions = <65 18>;
         };
 
         Minus {
             bindings = <&kp KP_MINUS>;
-            key-positions = <67 42>;
+            key-positions = <42 65 17>;
         };
 
         Multiply {
             bindings = <&kp KP_MULTIPLY>;
-            key-positions = <67 43>;
+            key-positions = <43 65 16>;
         };
 
         Divide {
             bindings = <&kp KP_DIVIDE>;
-            key-positions = <67 44>;
+            key-positions = <44 65 15>;
         };
 
         Pipe {
             bindings = <&kp PIPE>;
-            key-positions = <67 30>;
+            key-positions = <30 65>;
         };
 
         One {
@@ -140,6 +120,46 @@
             bindings = <&kp NUMBER_0>;
             key-positions = <66 69 44>;
         };
+
+        Exclamation {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <65 50>;
+        };
+
+        Question {
+            bindings = <&kp LS(QUESTION)>;
+            key-positions = <65 49>;
+        };
+
+        LBrace {
+            bindings = <&kp LS(LEFT_BRACE)>;
+            key-positions = <65 41>;
+        };
+
+        RBrace {
+            bindings = <&kp LS(RIGHT_BRACE)>;
+            key-positions = <65 42>;
+        };
+
+        LParanthesis {
+            bindings = <&kp LS(LEFT_PARENTHESIS)>;
+            key-positions = <65 43>;
+        };
+
+        RParenthesis {
+            bindings = <&kp LS(RIGHT_PARENTHESIS)>;
+            key-positions = <65 44>;
+        };
+
+        LBracket {
+            bindings = <&kp LS(LEFT_BRACKET)>;
+            key-positions = <65 23>;
+        };
+
+        RBracket {
+            bindings = <&kp LS(RIGHT_BRACKET)>;
+            key-positions = <65 24>;
+        };
     };
 
     keymap {
@@ -147,11 +167,11 @@
 
         default_layer {
             bindings = <
-&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &tog 1                                                           &mo 3          &kp N6  &kp N7  &kp N8     &kp N9    &kp N0    &kp MINUS
-&kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &none                                                            &none          &kp Y   &kp U   &kp I      &kp O     &kp P     &kp BSLH
-&kp ESC    &kp A      &kp S     &kp D     &kp F      &kp G   &none      &kp LCTRL       &kp LALT      &kp LGUI   &kp RCTRL    &none          &kp H   &kp J   &kp K      &kp L     &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                              &kp HOME      &kp PG_UP                              &kp N   &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
-&mo 2      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp SPACE  &kp LEFT_SHIFT  &mo 4         &kp PG_DN  &lt 5 ENTER  &kp BACKSPACE          &kp UP  &kp DOWN   &kp LBKT  &kp RBKT  &mo 2
+&kp ESC    &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &tog 1                                                             &mo 3          &kp N6  &kp N7  &kp N8     &kp N9    &kp N0    &kp MINUS
+&kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &none                                                              &none          &kp Y   &kp U   &kp I      &kp O     &kp P     &kp BSLH
+&kp MINUS  &kp A      &kp S     &kp D     &kp F      &kp G   &none        &kp LCTRL       &kp LALT      &kp LGUI   &kp RCTRL    &none          &kp H   &kp J   &kp K      &kp L     &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                                &kp HOME      &kp PG_UP                              &kp N   &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
+&mo 2      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &lt 4 SPACE  &kp LEFT_SHIFT  &mo 4         &kp PG_DN  &lt 5 ENTER  &kp BACKSPACE          &kp UP  &kp DOWN   &kp LBKT  &kp RBKT  &mo 2
             >;
         };
 
