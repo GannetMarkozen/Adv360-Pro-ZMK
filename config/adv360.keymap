@@ -46,24 +46,9 @@
             key-positions = <31 65>;
         };
 
-        Pipe {
-            bindings = <&kp PIPE>;
-            key-positions = <30 65>;
-        };
-
-        Divide {
-            bindings = <&kp KP_DIVIDE>;
-            key-positions = <15 65>;
-        };
-
-        Plus {
-            bindings = <&kp PLUS>;
-            key-positions = <65 18>;
-        };
-
         Minus {
             bindings = <&kp MINUS>;
-            key-positions = <65 17>;
+            key-positions = <65 30>;
         };
 
         Multiply {
