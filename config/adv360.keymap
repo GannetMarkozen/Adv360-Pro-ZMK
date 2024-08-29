@@ -17,7 +17,7 @@
             bindings = <&kp RET>;
         };
 
-        Arrow: Arrow {
+        arrow_operator: Arrow {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&macro_press>, <&kp MINUS &kp GT>;
@@ -55,7 +55,7 @@
         };
 
         Minus {
-            bindings = <&Arrow>;
+            bindings = <&arrow_operator>;
             key-positions = <65 30>;
         };
 
