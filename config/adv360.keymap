@@ -43,7 +43,7 @@
 
         Equal {
             bindings = <&kp KP_EQUAL>;
-            key-positions = <31 65>;
+            key-positions = <31 65 31>;
         };
 
         Plus {
@@ -53,72 +53,22 @@
 
         Minus {
             bindings = <&kp KP_MINUS>;
-            key-positions = <42 65 17>;
+            key-positions = <65 17>;
         };
 
         Multiply {
             bindings = <&kp KP_MULTIPLY>;
-            key-positions = <43 65 16>;
+            key-positions = <65 16>;
         };
 
         Divide {
             bindings = <&kp KP_DIVIDE>;
-            key-positions = <44 65 15>;
+            key-positions = <65 15>;
         };
 
         Pipe {
             bindings = <&kp PIPE>;
             key-positions = <30 65>;
-        };
-
-        One {
-            bindings = <&kp NUMBER_1>;
-            key-positions = <66 69 29>;
-        };
-
-        Two {
-            bindings = <&kp NUMBER_2>;
-            key-positions = <66 69 30>;
-        };
-
-        Three {
-            bindings = <&kp NUMBER_3>;
-            key-positions = <66 69 31>;
-        };
-
-        Four {
-            bindings = <&kp NUMBER_4>;
-            key-positions = <66 69 32>;
-        };
-
-        Five {
-            bindings = <&kp NUMBER_5>;
-            key-positions = <66 69 33>;
-        };
-
-        Six {
-            bindings = <&kp NUMBER_6>;
-            key-positions = <40 66 69>;
-        };
-
-        Seven {
-            bindings = <&kp NUMBER_7>;
-            key-positions = <66 69 41>;
-        };
-
-        Eight {
-            bindings = <&kp NUMBER_8>;
-            key-positions = <66 69 42>;
-        };
-
-        Nine {
-            bindings = <&kp NUMBER_9>;
-            key-positions = <66 69 43>;
-        };
-
-        Zero {
-            bindings = <&kp NUMBER_0>;
-            key-positions = <66 69 44>;
         };
 
         Exclamation {
@@ -133,32 +83,32 @@
 
         LBrace {
             bindings = <&kp LS(LEFT_BRACE)>;
-            key-positions = <65 41>;
+            key-positions = <41 70>;
         };
 
         RBrace {
             bindings = <&kp LS(RIGHT_BRACE)>;
-            key-positions = <65 42>;
+            key-positions = <42 70>;
         };
 
         LParanthesis {
             bindings = <&kp LS(LEFT_PARENTHESIS)>;
-            key-positions = <65 43>;
+            key-positions = <43 70>;
         };
 
         RParenthesis {
             bindings = <&kp LS(RIGHT_PARENTHESIS)>;
-            key-positions = <65 44>;
+            key-positions = <44 70>;
         };
 
         LBracket {
             bindings = <&kp LS(LEFT_BRACKET)>;
-            key-positions = <65 23>;
+            key-positions = <23 70>;
         };
 
         RBracket {
             bindings = <&kp LS(RIGHT_BRACKET)>;
-            key-positions = <65 24>;
+            key-positions = <24 70>;
         };
     };
 
