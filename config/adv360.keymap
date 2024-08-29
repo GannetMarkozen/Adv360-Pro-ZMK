@@ -62,12 +62,12 @@
         };
 
         Minus {
-            bindings = <&kp KP_MINUS>;
+            bindings = <&kp MINUS>;
             key-positions = <65 17>;
         };
 
         Multiply {
-            bindings = <&kp KP_MULTIPLY>;
+            bindings = <&kp LS(NUMBER_8)>;
             key-positions = <65 16>;
         };
 
