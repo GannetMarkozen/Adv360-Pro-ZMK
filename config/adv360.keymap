@@ -100,6 +100,26 @@
             bindings = <&kp LS(RIGHT_BRACKET)>;
             key-positions = <24 70>;
         };
+
+        LeftArrow {
+            bindings = <&kp LEFT>;
+            key-positions = <69 41>;
+        };
+
+        DownArrow {
+            bindings = <&kp DOWN>;
+            key-positions = <69 42>;
+        };
+
+        RightArrow {
+            bindings = <&kp RIGHT>;
+            key-positions = <69 43>;
+        };
+
+        UpArrow {
+            bindings = <&kp UP_ARROW>;
+            key-positions = <69 24>;
+        };
     };
 
     keymap {
