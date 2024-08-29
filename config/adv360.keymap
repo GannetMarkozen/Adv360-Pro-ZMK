@@ -17,6 +17,13 @@
             bindings = <&kp RET>;
         };
 
+        arrow_operator: arrow_operator {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp MINUS &kp GT>;
+            label = "ARROW_OPERATOR";
+        };
+
         #endif
 
         hm: homerow_mods {
@@ -46,8 +53,8 @@
             key-positions = <31 65>;
         };
 
-        Minus {
-            bindings = <&kp MINUS &kp GT>;
+        Arrow {
+            bindings = <&arrow_operator>;
             key-positions = <65 30>;
         };
 
