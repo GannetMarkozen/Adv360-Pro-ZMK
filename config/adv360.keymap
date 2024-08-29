@@ -187,11 +187,11 @@
 
         space_layer {
             bindings = <
-&trans  &trans         &trans           &trans     &trans     &trans  &trans                                      &trans  &trans  &trans            &trans             &trans                &trans                 &trans
-&trans  &kp KP_DIVIDE  &kp KP_ASTERISK  &kp MINUS  &kp PLUS   &trans  &trans                                      &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans                &trans                 &trans
-&trans  &trans         &kp PIPE         &kp EQUAL  &kp UNDER  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&trans  &trans         &trans           &trans     &trans     &trans                  &trans      &trans                  &trans  &trans            &trans             &trans                &trans                 &trans
-&trans  &trans         &trans           &trans     &trans             &trans  &trans  &trans      &trans  &trans  &trans          &trans            &trans             &trans                &trans                 &trans
+&trans  &trans         &trans           &trans        &trans     &trans  &trans                                      &trans  &trans  &trans            &trans             &trans                &trans                 &trans
+&trans  &kp KP_DIVIDE  &kp KP_ASTERISK  &kp MINUS     &kp PLUS   &trans  &trans                                      &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans                &trans                 &trans
+&trans  &trans         &kp PIPE         &kp EQUAL     &kp UNDER  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&trans  &trans         &trans           &kp QUESTION  &kp EXCL   &trans                  &trans      &trans                  &trans  &trans            &trans             &trans                &trans                 &trans
+&trans  &trans         &trans           &trans        &trans             &trans  &trans  &trans      &trans  &trans  &trans          &trans            &trans             &trans                &trans                 &trans
             >;
         };
 
