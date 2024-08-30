@@ -56,9 +56,9 @@
             key-positions = <65 30>;
         };
 
-        Multiply {
-            bindings = <&kp LS(NUMBER_8)>;
-            key-positions = <65 16>;
+        Tab {
+            bindings = <&kp TAB>;
+            key-positions = <65 29>;
         };
 
         LBrace {
